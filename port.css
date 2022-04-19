@@ -520,17 +520,19 @@ padding: .75rem,.5rem;
 
 
 /* ======SERVICE MODAL ===== */
+
 .service_modal{
     position: fixed;
         inset: 0;
-        background-color: hsl(263, 25%, 6%); 
-        padding: 2rem 1rem;
+  
+        background-image:  linear-gradient(to bottom, rgba(33, 2, 2, 0.5), rgba(255, 255, 255,0.3), rgba(255, 255, 255,0.3),rgba(33, 2, 2, 0.5));
+          padding: 2rem 1rem;
         display: grid;
         visibility: hidden; 
         opacity: 0; 
         place-items: center;
         transition: .4s;
-        /* z-index: 1000px; */
+        z-index: 10;
 }
 
 
@@ -815,15 +817,6 @@ justify-content: center;
     resize: none;
 }
 
-/* ============================================================================================= */
-/* .swiper-pagination-bullet{
-    background: rgb(211, 9, 9);
-}
-.swiper-pagination-bullet-active{
-    background: #000;
-    
-} */
-
 /* ==========================================FOOTER=========================== */
  .footer{
     background-color: hsla(256, 95%, 9%, 0.648);
@@ -871,14 +864,14 @@ justify-content: center;
 ::-webkit-scrollbar{
     width: .6rem;
     border-radius: .5rem;
-    background-color: aqua;
+    background-color: rgba(25, 35, 100, 0.662);
 }
 ::-webkit-scrollbar-thumb{
-    background-color: hsl(0, 90%, 45%);
+    background-color: hsl(0, 33%, 89%);
     border-radius:.5rem ;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background-color: hsl(0, 77%, 49%);
+    background-color: hsl(0, 4%, 42%);
 }
 
 /* ==========FOR SMALL DEVICE ========== */

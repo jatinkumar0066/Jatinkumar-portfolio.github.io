@@ -14,7 +14,7 @@ let modalViews =document.querySelectorAll('.service_modal'),
        modalClose=document.querySelectorAll('.services__modal-close')
   
 let modal=function(modalClick){
-    modalViews[modalClick].classList.add('.active-modal')
+    modalViews[modalClick].classList.add('active-modal')
 }
 
 modalBtns.forEach((mb, i) =>{
@@ -123,7 +123,7 @@ const sr =ScrollReveal({
     distance:'60px',
     duration:2500,
     delay:400,
-    // reset:'true',
+    reset:'true',
 
 })
 
